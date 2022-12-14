@@ -1,0 +1,41 @@
+ *{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: #1f1d1d;
+}
+
+.tarjetas__img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: bisque;
+}
+
+.item-nombre {
+  background-color: beige;
+  text-align: center;
+}
+
+.card {
+  width: 25vw;
+  height: auto;
+  border: #1f1d1d;
+  margin: 2rem;
+  border-radius: 0, 5rem;
+  border-color: rgb(236, 15, 15);
+  border-width: 2px;
+  border-style: solid;
+  display: flex;
+  transition: heigth 2seg; }
+
+.cardsBtn {
+  width: 0, 5rem;
+  margin: 1rem;
+  text-align: start;
+  text-decoration: none;
+  display: inline;
+  color: rgb(231, 227, 227);
+  background-color: darkgrey; }

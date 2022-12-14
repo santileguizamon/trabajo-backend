@@ -5,90 +5,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ARQUITECTURA,ESTUDIO, CONSTRUCCION, EDIFICIOS, PROYECTAR"> 
+    <meta name="description" content="Somos un estudio de arquitectura ubicado en Buenos Aires, especializados en proyectos urbanisticos ">
     <title>Wonder Arquitectos</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
-    <div class="grid-container">
-        <header class="header">
-            <h1 class="nombre--uppercase">WONDER</h1>
-            <h2 class="nombre">Arquitectos</h2>
-            <nav class="header__navegador">
-                <ul>
-                    <li class="borderRounded"><a href="pages/Proyectos.html" class="borderRounded">Proyectos</a></li>
-                    <li class="borderRounded"><a href="pages/enobra.html" class="borderRounded">En obra</a></li>
-                    <li class="borderRounded"><a href="pages/nosotros.html" class="borderRounded">Nosotros</a></li>
-                    <li class="borderRounded"><a href="pages/contacto.html" class="borderRounded">Contacto</a></li>
-                    <li class="borderRounded"><a href="pages/premios.html" class="borderRounded">Premios</a></li>
-                </ul>
-            </nav>
-        </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">WONDER AR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/Proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/enobra.html">En obra</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/premios.html">Premios</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   
 
-        <main>
-            <section>
-                <div class="card">
-                    <img class="card__image" src="assets/img/casa.jpg" alt="exterior de una casa">
-    
-                </div>
-            </section>
-            <section >
-                <div class="cards">
-                    <img src="./assets/img/arquitectos.jpg" alt="" class="cards__img">
-                    <div>
-                        <strong class="cards__description__name">Nosotros</strong>
-                        <p class="cards__description__text">
-                            Somos un estudio especializado en diseños premium de residencias, edificios de vivienda y
-                            comerciales. Con gran experiencia en el ámbito de la construcción, lo que nos permite proyectar
-                            con
-                            una alta calidad en la resolución espacial y de cada uno de los detalles
-                        </p>
-                        <a href="./pages/nosotros.html" class="cardsBtn">Ver mas</a>
+    <section>
+        <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/casa.jpg" class="d-block w-100" alt="...">
                     </div>
-    
-                </div>
-    
-                <div class="cards">
-                    <img src="./assets/img/panoramica.jpg" alt="" class="cards__img">
-                    <div class="cards__description">
-                        <strong class="cards__description__name">Paisajismo</strong>
-                        <p class="cards__description__text">
-                            Nos especializamos en la personalización de proyectos, diseñando cada detalle.
-                        </p>
-                        <a href="#" class="cardsBtn">Ver mas</a>
+                    <div class="carousel-item">
+                        <img src="./assets/img/casa-pinamar.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/edificio.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-    
-                <div class="cards">
-                    <img src="./assets/img/diseño.jpg" alt="" class="cards__img">
-                    <div>
-                        <strong class="cards__description__name">Diseño de interiores</strong>
-                        <p class="cards__description__text">
-                            El proyecto también se manifiesta a través de los detalles en el diseño interior.
-                        </p>
-                        <a href="#" class="cardsBtn">Ver mas</a>
-                    </div>
-            </section>
-            
             </div>
 
+        </div>
+    </section>
 
-        </main>
+    <section>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/equipo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nosotros</h5>
+                  <p class="card-text"> Somos un estudio especializado en diseños premium de residencias, edificios de vivienda y
+                    comerciales. Con gran experiencia en el ámbito de la construcción, lo que nos permite proyectar
+                    con
+                    una alta calidad en la resolución espacial y de cada uno de los detalles</p>
+                  <a href="#" class="btn btn-primary">Ver mas</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/panoramica.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Paisajismo</h5>
+                  <p class="card-text">Nos especializamos en la personalización de proyectos, diseñando cada detalle.</p>
+                  <a href="#" class="btn btn-primary">Ver mas</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/interiorc.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Diseño de interiores</h5>
+                  <p class="card-text">El proyecto también se manifiesta a través de los detalles en el diseño interior.</p>
+                  <a href="#" class="btn btn-primary">Ver mas</a>
+                </div>
+              </div>
+    </section>
 
-
-        <footer class="footer">
-            <h3>Wonder Arquitectos</h3>
-            <h4>Libertador 2500</h4>
-            <div>
-                <h4>Nuestras redes sociales</h4>
-                <ul>
-                    <li>Instagram</li>
-                    <li>Tik tok</li>
-                    <li>Facebook</li>
-                </ul>
-            </div>
-        </footer>
-    </div>
+    <footer class="footer">
+        <h3>Wonder Arquitectos</h3>
+        <h4>Libertador 2500</h4>
+        <div>
+            <h5>Nuestras redes sociales</h5>
+            <ul class="nav">
+                <li class="nav-redesBtn">Instagram</li>
+                <li class="nav-redesBtn">Twitter</li>
+                <li class="nav-redesBtn">Facebook</li>
+            </ul>
+        </div>
+    </footer>
+   
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

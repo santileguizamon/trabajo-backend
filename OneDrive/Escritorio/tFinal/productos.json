@@ -1,0 +1,57 @@
+[
+    {
+     "id":1,
+     "nombre":"Buzo frizado",
+     "categoria":"Prenda superior",
+     "precio":"$8500",
+     "genero":"Unisex"
+    },
+    {
+       "id":2,
+       "nombre":"Jean recto",
+       "categoria":"Prenda inferior",
+       "precio":"$10500",
+       "genero":"Hombre"
+    },
+    {
+       "id":3,
+     "nombre":"Remera oversized",
+     "categoria":"Prenda superior",
+     "precio":"$4500",
+     "genero":"Unisex"
+    },
+    {
+       "id":4,
+     "nombre":"Jogger",
+     "categoria":"Prenda inferior",
+     "precio":"$9500",
+     "genero":"Hombre"
+    },
+    {"id":5,
+       "nombre":"Pantalon cargo",
+       "categoria":"Prenda inferior",
+       "precio":"$11000",
+       "genero":"Hombre"
+   },
+   {
+       "id":6,
+     "nombre":"Remera",
+     "categoria":"Prenda superior",
+     "precio":"$3500",
+     "genero":"Unisex"
+   },
+   {
+       "id":7,
+     "nombre":"Buzo oversized",
+     "categoria":"Prenda superior",
+     "precio":"$9500",
+     "genero":"Unisex"
+   },
+   {
+       "id":8,
+     "nombre":"Gorra vintage",
+     "categoria":"Prenda superior",
+     "precio":"$2500",
+     "genero":"Unisex"
+   }   
+   ]

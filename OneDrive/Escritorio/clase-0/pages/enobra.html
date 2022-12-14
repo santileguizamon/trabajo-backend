@@ -5,50 +5,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ARQUITECTURA,ESTUDIO, CONSTRUCCION, EDIFICIOS, PROYECTAR"> 
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./../assets/css/style.css">
     <title>En obra-Wonder</title>
 </head>
 
 <body>
-    <header class="titulo">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">WONDER AR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/Proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/enobra.html">En obra</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/premios.html">Premios</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-            <h1 class="nombre--uppercase">WONDER</h1>
-            <h2 class="nombre">Arquitectos</h2>
-
-         <nav class="titulo__navegador">
-             <ul>
-                 <li class="barra"><a href="./../index.html" class="barra">Inicio</a></div>
-                 <li class="barra"><a href="Proyectos.html" class="barra">Proyectos</a></li>
-                 <li class="barra"><a href="enobra.html" class="barra">En obra</a></li>
-                 <li class="barra"><a href="nosotros.html" class="barra">Nosotros</a></li>
-                 <li class="barra"><a href="contacto.html" class="barra">Contacto</a></li>
-                 <li class="barra"><a href="premios.html" class="barra">Premios</a></li>
-             </ul>
-           </nav>
-          
-    </header>
     <main>
         <h1>En obra</h1>
-        <div class="tarjetas">
-            <img src="./../assets/img/interiorc.jpg" alt="imagen interior" class="tarjetas__img">
-            <p class="tajetas__descripcion">pequeña descripcion del proyecto arquitecnocio en construccion + su nombre y fecha de finalizacion aproximada</p>
-        </div>
+        <section>
+            <div class="tarjetas">
+                <img src="./../assets/img/interiorc.jpg" alt="imagen interior" class="tarjetas__img">
+                <p class="tajetas__descripcion">pequeña descripcion del proyecto arquitecnocio + su nombre</p>
+                <a href="#" class="btn btn-primary">Ver mas</a>
+            </div>
+
+            <div class="tarjetas">
+                <img src="./../assets/img/edificio.jpg" alt="casa de las palmeras" class="tarjetas__img">
+                <p class="tajetas__descripcion">pequeña descripcion del proyecto arquitecnocio + su nombre</p>
+                <a href="#" class="btn btn-primary">Ver mas</a>
+            </div>
+            <div class="tarjetas">
+                <img src="./../assets/img/palmeras.jpg" alt="casa de las palmeras" class="tarjetas__img">
+                <p class="tajetas__descripcion">pequeña descripcion del proyecto arquitecnocio + su nombre</p>
+                <a href="#" class="btn btn-primary">Ver mas</a>
+            </div>
+            <div class="tarjetas">
+                <img src="./../assets/img/edificio-2.jpg" alt="casa de las palmeras" class="tarjetas__img">
+                <p class="tajetas__descripcion">pequeña descripcion del proyecto arquitecnocio + su nombre</p>
+                <a href="#" class="btn btn-primary">Ver mas</a>
+            </div>
+        </section>
     </main>
     <a href="./../index.html"><strong>Inicio</strong></a>
 
 
     <footer class="footer">
-        <h3>Wonder Arquitectos<h4>Libertador 2500</h4>
-        </h3>
+        <h3>Wonder Arquitectos</h3>
+        <h4>Libertador 2500</h4>
         <div>
             <h4>Nuestras redes sociales</h4>
             <ul>
                 <li>Instagram</li>
-                <li>Tik tok</li>
+                <li>Twitter</li>
                 <li>Facebook</li>
             </ul>
         </div>
     </footer>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

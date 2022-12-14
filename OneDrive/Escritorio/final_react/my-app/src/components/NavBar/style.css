@@ -1,0 +1,26 @@
+.navbar-container{
+    display: flex;
+    flex-direction: column;
+    width:'100%';
+    height: '4 rem';
+    background-Color: black;
+    justify-content: space-between;
+    align-items:center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin: 1rem;
+
+}
+button{
+    
+}
+
+h1{
+    display: flex;
+    text-size-adjust: large;
+    color: rgb(250, 9, 9);
+}
